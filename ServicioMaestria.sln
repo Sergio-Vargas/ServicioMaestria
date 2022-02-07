@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioMaestria", "ServicioMaestria\ServicioMaestria.csproj", "{ADD586FD-3399-439B-BF6B-7190C3919A98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cliente_MVC", "Cliente_MVC\Cliente_MVC.csproj", "{191B4932-2EED-4B3A-874F-8B99057B9902}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ADD586FD-3399-439B-BF6B-7190C3919A98} = {ADD586FD-3399-439B-BF6B-7190C3919A98}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADD586FD-3399-439B-BF6B-7190C3919A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD586FD-3399-439B-BF6B-7190C3919A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD586FD-3399-439B-BF6B-7190C3919A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD586FD-3399-439B-BF6B-7190C3919A98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{191B4932-2EED-4B3A-874F-8B99057B9902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191B4932-2EED-4B3A-874F-8B99057B9902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191B4932-2EED-4B3A-874F-8B99057B9902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{191B4932-2EED-4B3A-874F-8B99057B9902}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29856E3B-46B3-4A9E-BE01-4839AE67269B}
+	EndGlobalSection
+EndGlobal
